@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import MainLayout from '../components/common/MainLayout'
+import Page from '../components/home'
 
 export default function home() {
   return (
-    <View>
-      <Text>Hello Word</Text>
-    </View>
+    <MainLayout dark>
+      <Page />
+    </MainLayout>
   );
 }
