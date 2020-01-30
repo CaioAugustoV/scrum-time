@@ -6,11 +6,11 @@ export default function MainLayout(props) {
     <> 
       <StatusBar 
         translucent
-        backgroundColor={props.dark ? "#000" : "#fff"}
+        backgroundColor={props.dark ? "#141414" : "#fff"}
         barStyle={props.dark ? "light-content" : "dark-content"} 
       />
       <View style={{ 
-        backgroundColor: props.dark ? "#000" : "#fff",
+        backgroundColor: props.dark ? "#141414" : "#fff",
         width: '100%',
         height: '100%',
         paddingTop: Platform.OS === 'ios' ? 50 : 0,
